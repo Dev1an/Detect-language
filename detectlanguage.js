@@ -7,6 +7,6 @@ Meteor.startup(function() {
 })
 
 TAPi18n.setLanguageAmplify = function(language) {
-	amplify.store('preferred-language', language
+	amplify.store('preferred-language', language)
 	TAPi18n.setLanguage(language).always(TAPi18n._afterUILanguageChange)
 }
