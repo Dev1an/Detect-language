@@ -1,13 +1,13 @@
 Package.describe({
   name: 'devian:detectlanguage',
-  version: '0.0.2',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
   summary: "Utility for tap:i18n, that sets the default language to the browser's default language",
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/Dev1an/Detect-language.git',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
-  documentation: null
+  documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
